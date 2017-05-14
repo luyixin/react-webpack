@@ -17,9 +17,11 @@ react+react-router+webpack+es6+less,兼容jsx语法，依赖包自动抽出为�
   yarn dev // 运行在开发环境，使用（http://localhost:3000）访问
   yarn build // 打包输出至 项目里dist目录
   </code>
+</pre>
 
 
 ##### 使用 npm
+<pre>
   <code>
   npm i   // 安装依赖包
   npm run dev // 运行在开发环境，使用（http://localhost:3000）访问
