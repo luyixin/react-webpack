@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "luyixin <410780496@qq.com>",
   "license": "MIT",
+  "keyWord": "react webpack react-webpack react-template",
   "scripts": {
     "dev": "webpack-dev-server --progress --watch --config config/webpack.dev.js",
     "build": "webpack --progress -p --config config/webpack.build.js"
