@@ -69,7 +69,6 @@ module.exports = {
         NODE_ENV: JSON.stringify("production")
       }
     }),
-    new webpack.BannerPlugin('webpack created by luyixin <410780496@qq.com>'),
     new HtmlWebpackPlugin({
       template: __dir + '/index.html',
       filename: '../../index.html',
@@ -89,6 +88,7 @@ module.exports = {
         comments: false,
       }
     }),
+    new webpack.BannerPlugin('webpack created by luyixin <410780496@qq.com>'),
     // 拆分依赖包JS到自己的文件
     new webpack.optimize.CommonsChunkPlugin({
       name: 'vendor',
