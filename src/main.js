@@ -2,6 +2,8 @@
 created by luyixin on 2017.05.13
 */
 
+import './test.css'
+import './test.less'
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 
@@ -42,4 +44,3 @@ ReactDOM.render(
   <Clock/>,
   document.getElementById('root')
 )
-
