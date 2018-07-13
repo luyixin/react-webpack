@@ -1,5 +1,5 @@
 # react-webpack
-react基于webpack2搭建的开发、发布环境
+react基于webpack3搭建的开发、发布环境
 
 ### 实现
 react+react-router+webpack+es6+less,兼容jsx语法，依赖包自动抽出为单独文件，减少开发时webpack热重载编译消耗，css和less合并打包，输出文件压缩混淆，
